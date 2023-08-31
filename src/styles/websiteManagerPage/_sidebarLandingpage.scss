@@ -1,0 +1,85 @@
+.sidebar-landingpage-manager {
+  .ant-tabs-tab {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .ant-tabs-tab-btn:hover {
+    color: #00ba34 !important;
+  }
+
+  .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #00ba34 !important;
+  }
+
+  .ant-tabs-ink-bar {
+    background: #00ba34 !important;
+  }
+
+  .product-description-title {
+    color: #585757;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  .quill {
+    border-radius: 8px;
+    position: relative;
+    //overflow: hidden;
+  }
+
+  .ql-toolbar {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+  }
+
+  .ql-editor {
+    padding-top: 68px;
+  }
+
+  .ql-container {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .quill-editor-disabled {
+    background-color: rgba(0, 0, 0, 0.04);
+    cursor: not-allowed;
+  }
+
+  .quill-editor-disabled p {
+    cursor: not-allowed;
+  }
+  .product-description-title {
+    &::before {
+      display: inline-block;
+      margin-inline-end: 4px;
+      color: #ff4d4f;
+      font-size: 14px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: "*";
+    }
+  }
+  .ql-toolbar.ql-snow + .ql-container.ql-snow {
+    border-radius: 8px;
+  }
+  .ql-toolbar.ql-snow {
+    z-index: 999;
+  }
+  .ql-link {
+    display: none !important;
+  }
+}

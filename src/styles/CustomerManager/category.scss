@@ -1,0 +1,44 @@
+.category-item-block {
+  .category-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .breadcrumb-bc {
+      .category-title {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+    }
+  }
+}
+.category-modal {
+  .ant-modal-header {
+    margin-bottom: 24px;
+  }
+  .ant-form-item {
+    margin-bottom: 32px;
+  }
+
+  .ant-btn-default {
+    padding: 0 30px !important;
+    font-size: 16px;
+    font-weight: bold;
+
+    &:hover {
+      color: unset !important;
+      border-color: #d9d9d9 !important;
+    }
+  }
+
+  .ant-btn-primary {
+    background-color: #00ba34 !important;
+    color: #fff;
+    padding: 0 30px !important;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .ant-modal-footer {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,89 @@
+.ticket-manage-page {
+  .filter-btn {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    margin-right: 16px;
+  }
+}
+
+.ticket-drawer {
+  .ticket-info-detail {
+    .img-body {
+      img {
+        width: 231px;
+        height: 130px;
+        object-fit: contain;
+      }
+      .download-img {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        cursor: pointer;
+      }
+    }
+  }
+  .reason {
+    padding: 16px;  
+    border-radius: 8px;
+    background: #F6F6F6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #585757;
+    margin-top: 24px;
+  }
+
+  .ant-tabs-nav {
+    margin-bottom: 24px;
+  }
+
+  .ticket-info-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ticket-code-title {
+    color: #1c1c1c;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+  }
+
+  .ticket-code {
+    color: var(--light-green-base, #00ba34);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    margin-left: 12px;
+  }
+
+  .ant-collapse-header {
+    padding: 0 !important;
+    margin-top: 32px;
+  }
+
+  .ant-collapse-content-box {
+    padding: 0 !important;
+  }
+
+  .ticket-detail-panel {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .ticket-detail-item {
+    margin-bottom: 0;
+  }
+
+  .ant-collapse-item {
+    border: none !important;
+  }
+}

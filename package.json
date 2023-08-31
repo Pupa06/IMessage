@@ -1,0 +1,69 @@
+{
+  "name": "text-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^5.4.6",
+    "axios": "^0.24.0",
+    "browser-image-compression": "^2.0.2",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.8",
+    "file-saver": "^2.0.5",
+    "format-number": "^3.0.0",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "node-sass": "^8.0.0",
+    "rc-resize-observer": "^1.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-loadable": "^5.5.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "4.0.3",
+    "react-window": "^1.8.9",
+    "sweetalert2": "^11.1.10",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "docker:build": "docker build . -t blog-bs-frontend",
+    "docker:stop": "docker stop blog-bs-frontend",
+    "docker:clean": "docker rm -f blog-bs-frontend",
+    "docker:start": "docker run -d --restart=always --name blog-bs-frontend -p 2222:80 blog-bs-frontend",
+    "deploy": "npm run docker:stop;npm run docker:clean;npm run docker:build;npm run docker:start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-babel-root-import": "rmacklin/eslint-import-resolver-babel-plugin-root-import#update-dependencies",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
