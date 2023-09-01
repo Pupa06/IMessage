@@ -14,11 +14,11 @@ const LoginPage = () => {
       <div className="login-bg">
         <div className="popup-login">
           <div className="left-content">
-            <img src="/images/login/left-img.png" alt="left-img" />
+            <img src="/images/login/img-left.png" alt="left-img" />
           </div>
           <div className="right-content">
             <div className="logo-header">
-              <img src="/images/common/logo.svg" alt="logo" />
+              <img src="/images/common/IMessage_logo.png" alt="logo" />
             </div>
             <div className="form-login">
               <h1>Xin chào!</h1>
